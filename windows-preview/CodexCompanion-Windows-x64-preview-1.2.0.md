@@ -6,9 +6,9 @@ https://github.com/Youyou972/CodexCompanion-releases/releases/download/v1.2.0/Co
 
 SHA-256:
 
-`e0b0417f3f2ea76f1110f9fc81e53350caa81fe8f9f8dfa9da8cb780236234b0`
+`350795412d2d749059518c7ad9839ec626b18a302fbefc03d6b9a4d5d6536420`
 
-This is a Windows preview build. It is not code-signed yet.
+This is a Windows preview build. It is not code-signed yet. This build seeds a visible sample asset on first app launch and writes diagnostics to `%APPDATA%\CodexCompanion\logs\codex-companion.log`.
 
 ## Run
 
