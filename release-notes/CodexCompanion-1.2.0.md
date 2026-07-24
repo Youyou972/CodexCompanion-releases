@@ -5,7 +5,7 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 
 Build `2026072409` · macOS 14 or newer
 
-Status: unreleased production candidate.
+Released July 24, 2026.
 
 ## Management window
 
@@ -65,10 +65,18 @@ Status: unreleased production candidate.
   `Developer ID Application: Yohann Blanchard (R7XQPWQTFV)`, Team ID
   `R7XQPWQTFV`, hardened runtime, and secure timestamps. Both signatures passed
   strict local verification.
-- Apple accepted notarization submission
-  `30f43285-0320-46ec-aae9-72480fb8c89f`. The final DMG ticket stapled and
+- Apple accepted final notarization submission
+  `04795b0b-78c6-46d1-a65f-3bd9a37267e4`. The final DMG ticket stapled and
   validated successfully, and Gatekeeper reported `accepted` with source
   `Notarized Developer ID`.
-- Sparkle generated an EdDSA signature for the exact stapled DMG. Publication
-  still fails closed unless the private tag/Release and public HTTPS appcast
-  are derived from the same final commit and artifact.
+- Sparkle generated and verified an EdDSA signature for the exact stapled DMG.
+  The matching private GitHub Release and public HTTPS stable appcast were
+  published from the same final artifact.
+- The public appcast, release notes, enclosure, checksum, stapling ticket, and
+  Gatekeeper assessment were downloaded again over HTTPS and independently
+  verified.
+- An isolated Developer ID-signed 1.1.1 baseline detected 1.2.0, validated its
+  signed release notes and enclosure, downloaded, installed, and relaunched as
+  build `2026072409`. The production app was then installed at
+  `/Applications/CodexCompanion.app`; settings remained byte-for-byte
+  unchanged and its signed update check reported that 1.2.0 is current.
