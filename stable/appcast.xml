@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>CodexCompanion</title>
+        <item>
+            <title>1.2.0</title>
+            <pubDate>Fri, 24 Jul 2026 13:33:13 -0400</pubDate>
+            <link>https://youyou972.github.io/CodexCompanion-releases/</link>
+            <sparkle:version>2026072409</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:releaseNotesLink sparkle:edSignature="aZmTjeROr04uSwG02u2ukvWFsXX+74Vs8gUowLrp2jvnjeY9ywvNsH3F8Y+S0h/pok8ewIsFHlQkJX6gBJM1Cg==" sparkle:length="4738">https://youyou972.github.io/CodexCompanion-releases/release-notes/CodexCompanion-1.2.0.md</sparkle:releaseNotesLink>
+            <enclosure url="https://youyou972.github.io/CodexCompanion-releases/downloads/1.2.0/CodexCompanion-1.2.0.dmg" length="14742986" type="application/octet-stream" sparkle:edSignature="0Q5zQd2ziWC3cVMPS2drOh+f1Ed5xZB4iN5wm/VR+dhqSahBpWKck8IQDIr/XXlRNjeCs/skiQy82GrziWAUAA=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: xCg6FkAL9DwNSpDyLAhYu4UQVTxOEd6bA1lrXyu83ti9zQjyRi2IMHdGhq3+5v6bit1w4M7CckCiWsulF0BnBQ==
+length: 1435
+-->
