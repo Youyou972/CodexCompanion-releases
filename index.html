@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>CodexCompanion Releases</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+      background: #0c1018;
+      color: #f4f7ff;
+    }
+    body {
+      min-height: 100vh;
+      margin: 0;
+      display: grid;
+      place-items: center;
+      background:
+        radial-gradient(circle at 78% 18%, #7158d544, transparent 30rem),
+        radial-gradient(circle at 15% 78%, #4da4d733, transparent 28rem),
+        #0c1018;
+    }
+    main {
+      width: min(42rem, calc(100% - 3rem));
+      padding: 2.5rem;
+      border: 1px solid #ffffff22;
+      border-radius: 1.5rem;
+      background: #151b28cc;
+      box-shadow: 0 1.5rem 5rem #0008;
+      backdrop-filter: blur(24px);
+    }
+    h1 { margin: 0 0 .5rem; font-size: clamp(2rem, 6vw, 3.5rem); }
+    p { color: #c8d0df; line-height: 1.6; }
+    .status {
+      display: inline-flex;
+      gap: .5rem;
+      align-items: center;
+      margin-top: 1rem;
+      padding: .65rem .9rem;
+      border-radius: 999px;
+      background: #ffffff0d;
+      color: #e4e8f2;
+    }
+    .dot { width: .6rem; height: .6rem; border-radius: 50%; background: #9aa7bd; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>CodexCompanion</h1>
+    <p>This site is the official update feed for the macOS app. Only Developer ID-signed, Apple-notarized, stapled, and Gatekeeper-verified releases are published here.</p>
+    <div class="status"><span class="dot"></span>No public update is available yet</div>
+  </main>
+</body>
+</html>
