@@ -6,9 +6,9 @@ https://github.com/Youyou972/CodexCompanion-releases/releases/download/v1.2.0/Co
 
 SHA-256:
 
-`350795412d2d749059518c7ad9839ec626b18a302fbefc03d6b9a4d5d6536420`
+`47e6ecc48ca76e754dfa23d82536c3b80210710a5f610925aa56410e0d94b318`
 
-This is a Windows preview build. It is not code-signed yet. This build seeds a visible sample asset on first app launch and writes diagnostics to `%APPDATA%\CodexCompanion\logs\codex-companion.log`.
+This is a Windows preview build. It is not code-signed yet. This build seeds a visible sample asset on first app launch, writes diagnostics to `%APPDATA%\CodexCompanion\logs\codex-companion.log`, and includes the refreshed glass/anime management window plus improved overlay placeholder.
 
 ## Run
 
@@ -26,4 +26,4 @@ powershell -ExecutionPolicy Bypass -File .\tools\SmokeTest-CodexCompanion.ps1 -P
 
 The helper verifies the executable, seeds a tiny sample AMII asset under `.\AMII\sample-smoke\`, starts the app, and prints PASS/WARN/FAIL evidence.
 
-After launch, use the tray menu’s **Next Reaction** action to verify overlay rendering.
+After launch, open the tray menu and choose **Open Companion**. Use the management window’s **Next Reaction** button to verify overlay rendering.
